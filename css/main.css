@@ -88,7 +88,7 @@ p {
 .background-banner {
   width: 100%;
   height: 100vh;
-  background-image: url("../img/smaller-banner.png");
+  background-image: url("../img/smaller-bannersmall.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,7 +150,8 @@ p {
 }
 
 .background-banner .banner-info .job-description {
-  color: #666666;
+  opacity: 0.6;
+  color: white;
   padding: 1em 0;
 }
 
@@ -171,10 +172,17 @@ p {
 }
 
 .spacer {
-  height: 8.4em;
+  height: 8em;
 }
 
-.piece1 {
+.piece1-with-banner {
+  background-image: url("../img/ignitiontextBanner.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.piece1-with-banner .piece1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,7 +193,7 @@ p {
   margin-bottom: 4em;
 }
 
-.piece1 .content-part {
+.piece1-with-banner .piece1 .content-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,11 +208,11 @@ p {
   width: 38.5em;
 }
 
-.piece1 .content-part .project-subtitle {
+.piece1-with-banner .piece1 .content-part .project-subtitle {
   color: #666666;
 }
 
-.piece1 .content-part .read-more-line {
+.piece1-with-banner .piece1 .content-part .read-more-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,7 +225,7 @@ p {
   justify-content: space-between;
 }
 
-.piece1 .content-part .line {
+.piece1-with-banner .piece1 .content-part .line {
   width: 14.125em;
   height: 1.375em;
   background-color: #ED1B24;
@@ -225,11 +233,18 @@ p {
   align-self: flex-end;
 }
 
-.piece1 .image-part {
+.piece1-with-banner .piece1 .image-part {
   width: 44.6em;
 }
 
-.piece2 {
+.piece2-with-banner {
+  background-image: url("../img/paranoiatextBannersmall.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.piece2-with-banner .piece2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,7 +255,7 @@ p {
   margin-bottom: 4em;
 }
 
-.piece2 .content-part {
+.piece2-with-banner .piece2 .content-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,11 +267,11 @@ p {
   width: 44.6em;
 }
 
-.piece2 .content-part .project-subtitle {
+.piece2-with-banner .piece2 .content-part .project-subtitle {
   color: #666666;
 }
 
-.piece2 .content-part .read-more-line {
+.piece2-with-banner .piece2 .content-part .read-more-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,7 +284,7 @@ p {
   justify-content: space-between;
 }
 
-.piece2 .content-part .line {
+.piece2-with-banner .piece2 .content-part .line {
   width: 14.125em;
   height: 1.375em;
   background-color: #ED1B24;
@@ -277,7 +292,7 @@ p {
   align-self: flex-end;
 }
 
-.piece2 .image-part {
+.piece2-with-banner .piece2 .image-part {
   width: 45.313em;
 }
 
@@ -313,31 +328,71 @@ p {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.footer .social-media .spacing {
+  margin: 0 0.4em;
   opacity: 0.5;
   color: white;
 }
 
-.footer .social-media .fab {
-  margin: 0 0.4em;
+.footer .social-media .spacing:focus {
+  opacity: 1;
+}
+
+.footer .social-media .spacing:hover {
+  opacity: 1;
+}
+
+.cross a {
+  position: fixed;
+  padding: 2em 4em;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  font-size: 0.7em;
+  border: #ED1B24 solid 2px;
+  color: #ED1B24;
+  border-radius: 4px;
+}
+
+.cross a:focus {
+  background-color: #ED1B24;
+  color: white;
+}
+
+.cross a:hover {
+  background-color: #ED1B24;
+  color: white;
 }
 
 .video-banner {
   position: relative;
-  padding-top: 56.25%;
-  width: 40%;
-  height: 40vh;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 3em;
 }
 
 .video-banner .video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/igntionBanner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .video-banner .dropdown-arrow {
-  position: fixed;
+  position: absolute;
   bottom: 1em;
   left: 50%;
   width: 10em;
@@ -346,5 +401,58 @@ p {
 }
 
 .video-banner .dropdown-arrow .fas {
-  color: #1A163B;
+  color: white;
+  opacity: 0.6;
+}
+
+.page-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.page-title .project-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.page-title .project-description .teams-roles-tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.page-title .project-description .teams-roles-tools .list {
+  margin-left: 2em;
+}
+
+.page-title .project-description .teams-roles-tools .arrange {
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.page-title .project-description .teams-roles-tools .teams-tools {
+  margin-left: 2em;
 }
