@@ -37,7 +37,9 @@
   .about-me-page .copy-side {
     width: 30em;
     margin-right: auto;
-    margin-top: 20em; }
+    height: 20em;
+    margin-top: auto;
+    margin-bottom: auto; }
     .about-me-page .copy-side .line {
       background-color: #ED1B24;
       width: 7em;
@@ -67,3 +69,12 @@
             color: #ED1B24; }
           .about-me-page .copy-side .lets-connect .connect .spacing:hover {
             color: #ED1B24; }
+    .about-me-page .copy-side .original-art {
+      margin-top: 1em;
+      text-decoration: underline; }
+      .about-me-page .copy-side .original-art a {
+        color: black; }
+        .about-me-page .copy-side .original-art a:focus {
+          color: #ED1B24; }
+        .about-me-page .copy-side .original-art a:hover {
+          color: #ED1B24; }

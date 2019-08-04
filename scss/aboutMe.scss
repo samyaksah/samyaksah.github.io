@@ -42,7 +42,9 @@ $red: #ED1B24;
   .copy-side{
     width: 30em;
     margin-right: auto;
-    margin-top: 20em;
+    height: 20em;
+    margin-top: auto;
+    margin-bottom: auto;
 
     .line{
       background-color: $red;
@@ -79,5 +81,21 @@ $red: #ED1B24;
         }
       }
     }
-}
+    .original-art{
+      margin-top: 1em;
+      text-decoration: underline;
+      a{
+        color: black;
+        &:focus{
+          color: $red;
+          // border-bottom: 2px solid $red;
+        }&:hover{
+          color: $red;
+          // border-bottom: 2px solid $red;
+        }
+      }
+    }
+
+  }
+
 }
