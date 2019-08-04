@@ -23,7 +23,7 @@ body {
 
 
 h1,h2,h3,h4,h4,h5,h6{
-font-family: 'FuturaPT', sans-serif;
+font-family: 'futura-pt', sans-serif;
 margin: 0;
 padding: 0;
 }
@@ -63,7 +63,7 @@ p{
   font-weight: 400;
   font-style: normal;
   line-height:140%;
-  font-size: 1.2em  ;
+  font-size: 1em  ;
 }
 
 .button{
@@ -98,37 +98,9 @@ p{
   background-color: $purple;
   background-position: right;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
   flex-direction: column;
 
-
-  .nav-bar{
-    width: 100%;
-    // background-color: $red;
-
-    .about{
-      padding: 1.5em;
-      padding-left: 0;
-
-      h5{
-        padding-bottom: 0.4em;
-        border-bottom: 2px solid white;
-        width : 2em;
-        color: white;
-
-        &:focus{
-          color: $red;
-          border-bottom: 2px solid $red;
-        }&:hover{
-          color: $red;
-          border-bottom: 2px solid $red;
-
-
-        }
-      }
-    }
-
-  }
 
   .banner-info{
     height: 100vh;
@@ -175,7 +147,7 @@ p{
   background-image: url("../img/ignitiontextBanner.png");
   background-position: right;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
   .piece1{
     display: flex;
     flex-direction: row;
@@ -217,10 +189,10 @@ p{
 }
 
 .piece2-with-banner{
-  background-image: url("../img/paranoiatextBannersmall.png");
+  background-image: url("../img/paranoiatextBanner.png");
   background-position: right;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
   .piece2{
     display: flex;
     flex-direction: row;
@@ -266,7 +238,7 @@ p{
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 68px;
+  height: 5em;
   background-color: $purple;
 
   .my-logo{
@@ -299,87 +271,4 @@ p{
       }
     }
   }
-}
-
-.cross{
-  a{
-    position: fixed;
-    padding: 2em 4em;
-    bottom: 20px;
-    left: 30px;
-    z-index: 99;
-    font-size: 0.7em;
-    border: $red solid 2px;
-    color: $red;
-    border-radius: 4px;
-    &:focus{
-      background-color: $red;
-      color: white;
-    }&:hover{
-      background-color: $red;
-      color: white;
-    }
-  }
-
-}
-
-.video-banner{
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3em;
-
-  .video{
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/igntionBanner.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .dropdown-arrow{
-    position: absolute;
-    bottom: 1em;
-    left: 50%;
-    width: 10em;
-    margin-left: auto;
-    margin-right: auto;
-
-    .fas{
-      color: white;
-      opacity: 0.6;
-    }
-  }
-}
-.page-title{
-  display: flex;
-  flex-direction: column;
-
-  .project-description{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    .teams-roles-tools{
-      display: flex;
-      flex-direction:row;
-
-      .list{
-        margin-left: 2em;
-      }
-      .arrange{
-        margin-bottom: 1em;
-        display: flex;
-        flex-direction: row;
-      }
-
-      .teams-tools{
-        margin-left: 2em;
-      }
-    }
-
-  }
-
 }

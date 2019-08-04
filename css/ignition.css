@@ -1,0 +1,192 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+.cross a {
+  position: fixed;
+  padding: 2em 4em;
+  top: 2em;
+  right: 2em;
+  z-index: 99;
+  font-size: 0.7em;
+  border: #ED1B24 solid 2px;
+  background-color: white;
+  color: #ED1B24;
+  border-radius: 4px; }
+  .cross a:focus {
+    background-color: #ED1B24;
+    color: white; }
+  .cross a:hover {
+    background-color: #ED1B24;
+    color: white; }
+
+.video-banner {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 3em; }
+  .video-banner .video {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/igntionBanner.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .video-banner .dropdown-arrow {
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto; }
+    .video-banner .dropdown-arrow .fas {
+      color: white;
+      opacity: 0.6; }
+
+.page-content .page-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .page-content .page-title .title {
+    border-bottom: 7px solid #ED1B24;
+    margin-bottom: 2em; }
+  .page-content .page-title .project-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 3px solid #ED1B24; }
+    .page-content .page-title .project-description .teams-roles-tools {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; }
+      .page-content .page-title .project-description .teams-roles-tools .list {
+        margin-left: 2em; }
+      .page-content .page-title .project-description .teams-roles-tools .arrange {
+        margin-bottom: 1em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row; }
+      .page-content .page-title .project-description .teams-roles-tools .teams-tools {
+        margin-left: 2em; }
+        .page-content .page-title .project-description .teams-roles-tools .teams-tools .about-teams {
+          margin-left: 1.5em; }
+
+.page-content .page-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .page-content .page-title .title {
+    border-bottom: 7px solid #ED1B24;
+    margin-bottom: 2em; }
+  .page-content .page-title .project-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 3px solid #ED1B24; }
+    .page-content .page-title .project-description .teams-roles-tools {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; }
+      .page-content .page-title .project-description .teams-roles-tools .list {
+        margin-left: 2em; }
+      .page-content .page-title .project-description .teams-roles-tools .arrange {
+        margin-bottom: 1em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row; }
+      .page-content .page-title .project-description .teams-roles-tools .teams-tools {
+        margin-left: 2em; }
+        .page-content .page-title .project-description .teams-roles-tools .teams-tools .about-teams {
+          margin-left: 1.5em; }
+
+.page-content .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  margin-top: 132px; }
+  .page-content .section .title-and-copy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .page-content .section .title-and-copy .section-title {
+      border-bottom: 2px solid #ED1B24; }
+
+.project-context {
+  width: 50%; }
+
+.pre-production {
+  width: 35%; }
+
+.production {
+  width: 35%; }
+
+.post-production {
+  width: 35%; }
+
+.image-gallery {
+  width: 60%;
+  background-color: yellow; }
+
+.extended {
+  height: 25em; }
+
+.yt-video {
+  margin-bottom: 3em; }
