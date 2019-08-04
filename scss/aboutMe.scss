@@ -1,0 +1,83 @@
+$purple: #1A163B;
+$red: #ED1B24;
+
+*, *::after, *::before{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.cross{
+  a{
+    position: fixed;
+    padding: 2em 4em;
+    top: 2em;
+    right: 2em;
+    z-index: 99;
+    font-size: 0.7em;
+    border: $red solid 2px;
+    background-color: white;
+    color: $red;
+    border-radius: 4px;
+    &:focus{
+      background-color: $red;
+      color: white;
+    }&:hover{
+      background-color: $red;
+      color: white;
+    }
+  }
+
+}
+
+.about-me-page{
+  display: flex;
+  flex-direction: row;
+  .profile-image{
+    width: 45%;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .copy-side{
+    width: 30em;
+    margin-right: auto;
+    margin-top: 20em;
+
+    .line{
+      background-color: $red;
+      width: 7em;
+      height: 0.7em;
+      margin-bottom: 1em;
+    }
+    .copy-about-me{
+      p{
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .lets-connect{
+      margin-top: 1em;
+      font-size: 1.5em;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      color: $purple;
+      .connect{
+        margin-top: 0.5em;
+        color: $purple;
+        .spacing{
+          padding-right: 0.5em;
+
+          &:focus{
+            color: $red;
+            // border-bottom: 2px solid $red;
+          }&:hover{
+            color: $red;
+            // border-bottom: 2px solid $red;
+          }
+        }
+      }
+    }
+}
+}
