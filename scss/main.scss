@@ -142,12 +142,14 @@ p{
       color: white;
       padding: 1em 0;
     }
-    a{
-      width: 11em;
-      .contact-me{
-        text-transform: uppercase;
+
+    .contact-me{
+      text-transform: uppercase;
+      a{
+        color: white;
       }
     }
+
 
   }
 
