@@ -16,7 +16,6 @@ body {
 
 }
 
-/* width */
 ::-webkit-scrollbar {
   display: none;
 }
@@ -31,13 +30,14 @@ padding: 0;
 h1{
   font-weight: 700;
   font-style: normal;
-  font-size: 17.5em;
+  font-size: 7em;
 }
 
 h2{
   font-weight: 700;
   font-style: normal;
-  font-size: 8em;
+  line-height: 0.8em;
+  font-size: 7em;
 }
 
 h3{
@@ -71,6 +71,7 @@ p{
   border: 2px solid $red;
   padding: 1em;
   color: $red;
+  background-color: $purple;
   width: 163px;
   text-align: center;
   &:hover{
@@ -84,7 +85,7 @@ p{
 }
 
 .middle{
-  width: 83.125em;
+  max-width: 83.125em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,9 +107,10 @@ p{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    margin-left: 15em;
+
     // background-color: green;
-    padding-top: 22em;
     // padding-bottom: 16em;
 
     .my-title{
@@ -145,7 +147,7 @@ p{
 }
 .piece1-with-banner{
   background-image: url("../img/ignitiontextBanner.png");
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   .piece1{
@@ -158,8 +160,7 @@ p{
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      padding-top: 25em;
-      width: 38.5em;
+      max-width: 38.5em;
       // border: 1px solid black;
 
       .project-subtitle{
@@ -170,19 +171,23 @@ p{
         flex-direction: row;
         justify-content: space-between;
 
-      }
-      .line{
-        width: 14.125em;
-        height: 1.375em;
-        background-color: $red;
-        align-self: flex-end;
 
+        .line{
+          width: 14.125em;
+          height: 1.375em;
+          background-color: $red;
+          align-self: flex-end;
+
+        }
       }
     }
 
     .image-part{
-      width: 44.6em;
-      // border: 1px solid black;
+      max-width: 44.6em;
+      img{
+        width: 100%;
+        height: auto;
+      }
 
     }
   }
@@ -201,10 +206,8 @@ p{
     .content-part{
       display: flex;
       flex-direction: column;
-      // align-items: flex-end;
-      padding-top: 25em;
-      // border: 1px solid black;
-      width: 44.6em;
+      justify-content: flex-end;
+      max-width: 38.5em;
 
       .project-subtitle{
         color: #666666;
@@ -225,9 +228,113 @@ p{
     }
 
     .image-part{
-      width: 45.313em;
-      // border: 1px solid black;
+      max-width: 45.313em;
+      img{
+        width: 100%;
+        height: auto;
+      }
 
     }
+  }
+}
+
+@media (max-width:1440px){
+  h1{
+    font-size: 17.5em;
+  }
+
+  h2{
+    font-size: 5em;
+  }
+
+  h3{
+   font-size: 4em;
+
+  }
+
+  h4{
+   font-size: 1.2em;
+  }
+
+  h5{
+    font-size: 1em;
+  }
+
+  .middle{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+
+@media (max-width:900px) {
+  .piece1-with-banner .piece1 .content-part .read-more-line .line {
+    width: 8em;
+    height: 1em;
+  }
+
+  .piece2-with-banner .piece2 .content-part .line {
+    width: 8em;
+    height: 1em;
+  }
+
+  .background-banner .banner-info{
+    margin-left: 3em;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .piece1-with-banner {
+    background-position: left;
+  }
+
+  .piece1-with-banner .piece1 {
+    flex-direction: column;
+  }
+
+  .piece1-with-banner .piece1 .image-part {
+    order: 1;
+  }
+  .piece1-with-banner .piece1 .content-part {
+    order: 2;
+  }
+
+  .piece2-with-banner .piece2 {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width:425px) {
+
+  h1{
+    font-size: 14em;
+  }
+
+  h2{
+    font-size: 4em;
+  }
+  .background-banner .banner-info{
+    margin-left: 1em;
+  }
+}
+
+@media (max-width:344px) {
+
+  h1{
+    font-size: 11em;
+  }
+
+  h2{
+    font-size: 3em;
+  }
+
+  .piece1-with-banner .piece1 .content-part .read-more-line .line {
+    display: none;
+  }
+
+  .piece2-with-banner .piece2 .content-part .line {
+    display: none;
   }
 }

@@ -78,3 +78,16 @@
           color: #ED1B24; }
         .about-me-page .copy-side .original-art a:hover {
           color: #ED1B24; }
+
+@media (max-width: 880px) {
+  .about-me-page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 1em 15em 1em; }
+    .about-me-page .profile-image {
+      width: 100%; }
+    .about-me-page .copy-side {
+      width: 100%;
+      margin: auto; } }

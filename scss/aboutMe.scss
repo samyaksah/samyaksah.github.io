@@ -99,3 +99,21 @@ $red: #ED1B24;
   }
 
 }
+
+@media (max-width:880px) {
+
+  .about-me-page{
+    flex-direction: column;
+    margin: 0 1em 15em 1em;
+    .profile-image{
+      width: 100%;
+    }
+
+    .copy-side{
+      width: 100%;
+      margin: auto;
+
+    }
+
+  }
+}
