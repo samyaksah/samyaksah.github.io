@@ -20,3 +20,12 @@
   .cross a:hover {
     background-color: #ED1B24;
     color: white; }
+
+.styleguide-page .styleguide-references {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }

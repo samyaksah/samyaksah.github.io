@@ -28,3 +28,11 @@ $red: #ED1B24;
   }
 
 }
+
+.styleguide-page{
+  .styleguide-references{
+    display: flex;
+    flex-direction: row;
+
+  }
+}
