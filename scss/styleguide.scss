@@ -1,0 +1,30 @@
+$purple: #1A163B;
+$red: #ED1B24;
+
+*, *::after, *::before{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.cross{
+  a{
+    position: fixed;
+    padding: 2em 4em;
+    top: 2em;
+    right: 2em;
+    z-index: 99;
+    font-size: 0.7em;
+    border: $red solid 2px;
+    background-color: white;
+    color: $red;
+    border-radius: 4px;
+    &:focus{
+      background-color: $red;
+      color: white;
+    }&:hover{
+      background-color: $red;
+      color: white;
+    }
+  }
+
+}
