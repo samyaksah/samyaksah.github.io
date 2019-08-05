@@ -149,7 +149,11 @@ p {
   padding: 1em 0;
 }
 
-.background-banner .banner-info .contact-me {
+.background-banner .banner-info a {
+  width: 11em;
+}
+
+.background-banner .banner-info a .contact-me {
   text-transform: uppercase;
 }
 
