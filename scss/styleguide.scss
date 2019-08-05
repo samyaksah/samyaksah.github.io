@@ -29,10 +29,46 @@ $red: #ED1B24;
 
 }
 
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+.gap{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.border-line{
+  border-top: 3px solid $red;
+}
 .styleguide-page{
   .styleguide-references{
     display: flex;
     flex-direction: row;
+    a{
+      margin-right: 1em;
+    }
+  }
 
+  .color-box{
+    display: flex;
+    flex-direction: row;
+    .red{
+      padding: 1em;
+      width: 10em;
+      height: 15em;
+      background-color: $red;
+      color: white;
+      margin: 0.5em;
+    }
+    .purple{
+      padding: 1em;
+      width: 12em;
+      height: 15em;
+      background-color: $purple;
+      color: white;
+      margin: 0.5em;
+    }
   }
 }

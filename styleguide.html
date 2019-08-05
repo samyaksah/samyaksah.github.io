@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/styleguide.css">
+  <link rel="stylesheet" href="css/ignition.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="https://use.typekit.net/imq1rul.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
@@ -23,79 +24,406 @@
   <div class="styleguide-page middle">
 
 
-  <div class="intro-heading">
-    <h3>My Style Guide</h3>
-    <p>This style guide was built based off of the sample provided by Paul B.</p>
-  </div>
+    <div class="intro-heading">
+      <h3>My Style Guide</h3>
+      <p>This style guide was built based off of the sample provided by Paul B.</p>
+    </div>
 
-  <div class="styleguide-references">
-    <a href="styleguide.html">
-      <div class="read-more button">
-        <h5>Styleguide</h5>
+    <div class="styleguide-references gap">
+      <a href="styleguide.html">
+        <div class="read-more button">
+          <h5>Styleguide</h5>
+        </div>
+      </a>
+      <a href="paranoia.html">
+        <div class="read-more button">
+          <h5>References</h5>
+        </div>
+      </a>
+    </div>
+
+    <div class="headings gap">
+
+      <h4>Headings</h4>
+
+      <h5>CSS selector:</h5>
+        <p>No special classes</p>
+
+      <h4>Sample code:</h4>
+        <div class="code-section">
+          <pre>
+            &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+            &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+            &lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+            &lt;h4&gt;Heading 4&lt;/h4&gt;<br>
+            &lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+          </pre>
+
+        </div>
+
+      <h4>Rendered element:</h4>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+
+    </div>
+
+    <div class="paragraph gap border-line">
+      <h4>Paragraph</h4>
+
+      <h5>CSS selector:</h5>
+        <p>No special classes</p>
+
+      <h4>Sample code:</h4>
+        <div class="code-section">
+          <pre>
+            &lt;p&gt;
+            This was a course project that lasted for 2 months wherein we were tasked
+            to learn about 3D Animation principles and apply them using Autodesk Maya
+            to make a short film. My team and I were really interested in Mixed Reality
+            and the possibilties that come with it, so, we decided to mix real life footage
+            and 3D animation to make a story that tells a story of a average man with a dull
+            life who get trasnported to a Virtual world and has to take part in a action
+            packed race that with another car.
+            &lt;/p&gt;
+          </pre>
+
+        </div>
+
+      <h4>Rendered element:</h4>
+      <p>This was a course project that lasted for 2 months wherein we were tasked to learn about 3D Animation principles and apply them using Autodesk Maya to make a short film. My team and I were really interested in Mixed Reality and the possibilties that come with it, so, we decided to mix real life footage and 3D animation to make a story that tells a story of a average man with a dull life who get trasnported to a Virtual world and has to take part in a action packed race that with another car.</p>
+
+    </div>
+
+    <div class="color gap border-line">
+      <h4>Color Pallete</h4>
+
+      <h5>CSS selector:</h5>
+        <p>$red, $purple</p>
+
+      <h4>Rendered element:</h4>
+      <div class="color-box">
+        <div class="red">
+          <h5>Color : Red</h5>
+          <h5>$red: #ED1B24;</h5>
+        </div>
+
+        <div class="purple">
+          <h5>Color : Purple</h5>
+          <h5>$purple: #1A163B;</h5>
+        </div>
       </div>
-    </a>
-    <a href="paranoia.html">
-      <div class="read-more button">
-        <h5>References</h5>
+
+
+    </div>
+
+    <div class="buttons gap border-line">
+
+      <h4>Buttons</h4>
+
+      <h5>CSS selector:</h5>
+        <p>.button, .read-more, .button-about</p>
+
+      <h4>Sample code:</h4>
+        <div class="code-section">
+          <pre>
+            &lt;a href="styleguide.html"&gt;
+              &lt;div class="read-more button"&gt;
+                &lt;h5&gt;Styleguide&lt;/h5&gt;
+              &lt;/div&gt;
+            &lt;/a&gt;
+          </pre>
+
+        </div>
+
+      <h4>Rendered element:</h4>
+      <a href="styleguide.html">
+        <div class="read-more button">
+          <h5>Styleguide</h5>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="video gap border-line">
+      <h4>Video-Iframe</h4>
+
+      <h5>CSS selector:</h5>
+        <p>.yt-video, .yt-video-iframe</p>
+
+      <h4>Sample code:</h4>
+      <pre>
+        &lt;div class="yt-video"&gt;
+          &lt;iframe class="yt-video-iframe" src="https://www.youtube.com/embed/fq_6ZQ4WShg"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+      </pre>
+
+      <h4>Rendered element:</h4>
+      <div class="yt-video">
+        <iframe class="yt-video-iframe" src="https://www.youtube.com/embed/fq_6ZQ4WShg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-    </a>
-  </div>
-  <div class="headings">
 
-    <h4>Headings</h4>
 
-    <h5>CSS selector:</h5>
-      <p>No special classes</p>
 
-    <h4>Sample code:</h4>
-      <div class="code-section">
-        <pre>
-          &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
-          &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
-          &lt;h3&gt;Heading 3&lt;/h3&gt;<br>
-          &lt;h4&gt;Heading 4&lt;/h4&gt;<br>
-          &lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+    </div>
+
+    <div class="project-heading gap border-line">
+      <h4>Project Heading</h4>
+
+      <h5>CSS selector:</h5>
+        <p>.page-content, .page-title, .title, .project-description, .page-subtitle, .teams-roles-tools, .roles, .arrange, .about-roles, .list, .teams-tools, .teams, .about-teams, .tools, .about-tools</p>
+
+      <h4>Sample code:</h4>
+      <pre>
+        &lt;div class="page-content middle"&gt;
+        &lt;div class="page-title" id="start"&gt;
+          &lt;div class="title"&gt;
+            &lt;h3&gt;Ignition&lt;/h3&gt;
+          &lt;/div&gt;
+
+          &lt;div class="project-description"&gt;
+
+            &lt;div class="page-subtitle"&gt;
+              &lt;h4&gt;3D Animation | VFX&lt;/h4&gt;
+            &lt;/div&gt;
+
+            &lt;div class="teams-roles-tools"&gt;
+
+              &lt;div class="roles arrange"&gt;
+                &lt;h5&gt;Roles&lt;/h5&gt;
+                &lt;div class="about-roles list"&gt;
+                  &lt;h5&gt;Plot Ideation&lt;/h5&gt;
+                  &lt;h5&gt;Character Design&lt;/h5&gt;
+                  &lt;h5&gt;Enviroment Design&lt;/h5&gt;
+                  &lt;h5&gt;Rigging&lt;/h5&gt;
+                  &lt;h5&gt;Animation&lt;/h5&gt;
+                  &lt;h5&gt;Compositing&lt;/h5&gt;
+                  &lt;h5&gt;Editing&lt;/h5&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;div class="teams-tools"&gt;
+
+                &lt;div class="teams arrange"&gt;
+                  &lt;h5&gt;Team&lt;/h5&gt;
+                  &lt;div class="about-teams list"&gt;
+                    &lt;h5&gt;Sinead Cheong&lt;/h5&gt;
+                    &lt;h5&gt;Shuhan Liu&lt;/h5&gt;
+                    &lt;h5&gt;Vivian Hao&lt;/h5&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class="tools arrange"&gt;
+                  &lt;h5&gt;Tool&lt;/h5&gt;
+                  &lt;div class="about-tools list"&gt;
+                    &lt;h5&gt;Autodesk Maya&lt;/h5&gt;
+                    &lt;h5&gt;Adobe Premiere&lt;/h5&gt;
+                    &lt;h5&gt;Adobe After Effects&lt;/h5&gt;
+                    &lt;h5&gt;Adobe Photoshop&lt;/h5&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+
+              &lt;/div&gt;
+
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+
+      </pre>
+
+      <h4>Rendered element:</h4>
+      <div class="page-content middle">
+        <div class="page-title" id="start">
+          <div class="title">
+            <h3>Ignition</h3>
+          </div>
+
+          <div class="project-description">
+
+            <div class="page-subtitle">
+              <h4>3D Animation | VFX</h4>
+            </div>
+
+            <div class="teams-roles-tools">
+
+              <div class="roles arrange">
+                <h5>Roles</h5>
+                <div class="about-roles list">
+                  <h5>Plot Ideation</h5>
+                  <h5>Character Design</h5>
+                  <h5>Enviroment Design</h5>
+                  <h5>Rigging</h5>
+                  <h5>Animation</h5>
+                  <h5>Compositing</h5>
+                  <h5>Editing</h5>
+                </div>
+              </div>
+
+              <div class="teams-tools">
+
+                <div class="teams arrange">
+                  <h5>Team</h5>
+                  <div class="about-teams list">
+                    <h5>Sinead Cheong</h5>
+                    <h5>Shuhan Liu</h5>
+                    <h5>Vivian Hao</h5>
+                  </div>
+                </div>
+
+                <div class="tools arrange">
+                  <h5>Tool</h5>
+                  <div class="about-tools list">
+                    <h5>Autodesk Maya</h5>
+                    <h5>Adobe Premiere</h5>
+                    <h5>Adobe After Effects</h5>
+                    <h5>Adobe Photoshop</h5>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="project-details gap border-line">
+      <h4>Project Details</h4>
+
+      <h5>CSS selector:</h5>
+        <p>.page-content, .section, .title-and-copy, .project-context, .section-title, .section-copy</p>
+
+      <h4>Sample code:</h4>
+      <pre>
+        &lt;div class="page-content middle"&gt;
+
+          &lt;div class="section"&gt;
+            &lt;div class="title-and-copy project-context"&gt;
+              &lt;div class="section-title"&gt;
+                &lt;h4&gt;Project Context&lt;/h4&gt;
+              &lt;/div&gt;
+              &lt;div class="section-copy"&gt;
+                &lt;p&gt;This was a course project that lasted for 2 months wherein we were tasked to learn about 3D Animation principles and apply them using Autodesk Maya to make a short film. My team and I were really interested in Mixed Reality and the possibilties that come with it, so, we decided to mix real life footage and 3D animation to make a story that tells a story of a average man with a dull life who get trasnported to a Virtual world and has to take part in a action packed race that with another car. &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      </pre>
+
+      <h4>Rendered element:</h4>
+
+      <div class="page-content middle">
+
+      <div class="section">
+        <div class="title-and-copy project-context">
+          <div class="section-title">
+            <h4>Project Context</h4>
+          </div>
+          <div class="section-copy">
+            <p>This was a course project that lasted for 2 months wherein we were tasked to learn about 3D Animation principles and apply them using Autodesk Maya to make a short film. My team and I were really interested in Mixed Reality and the possibilties that come with it, so, we decided to mix real life footage and 3D animation to make a story that tells a story of a average man with a dull life who get trasnported to a Virtual world and has to take part in a action packed race that with another car. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="footers gap border-line">
+      <h4>Footer</h4>
+
+      <h5>CSS selector:</h5>
+        <p>.footer, .my-logo, .social-media, .spacing</p>
+
+      <h4>Sample code:</h4>
+      <pre>
+        &lt;div class="footer"&gt;
+        &lt;a href="index.html"&gt;
+          &lt;div class="my-logo"&gt;
+
+          &lt;/div&gt;
+        &lt;/a&gt;
+
+        &lt;div class="social-media"&gt;
+          &lt;a href="https://www.youtube.com/channel/UCe8NHGPpCyaJL0_S5mWKEhw" target="_blank"&gt;&lt;i class="fab fa-youtube spacing"&gt;&lt;/i&gt;&lt;/a&gt;
+
+          &lt;a href="https://www.facebook.com/profile.php?id=100011912118718" target="_blank"&gt;&lt;i class="fab fa-facebook-square spacing"&gt;&lt;/i&gt;&lt;/a&gt;
+
+          &lt;a href="https://github.com/samyaksah/samyaksah.github.io" target="_blank"&gt;&lt;i class="fab fa-github-square spacing"&gt;&lt;/i&gt;&lt;/a&gt;
+
+          &lt;a href="mailto:ssah@sfu.ca" target="_blank"&gt;&lt;i class="fas fa-envelope spacing"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href="styleguide.html"&gt;&lt;i class="fas fa-pencil-ruler spacing"&gt;&lt;/i&gt;&lt;/a&gt;
+
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+      </pre>
+
+      <h4>Rendered element:</h4>
+
+      <div class="footer">
+        <a href="index.html">
+          <div class="my-logo">
+
+          </div>
+        </a>
+
+        <div class="social-media">
+          <a href="https://www.youtube.com/channel/UCe8NHGPpCyaJL0_S5mWKEhw" target="_blank"><i class="fab fa-youtube spacing"></i></a>
+
+          <a href="https://www.facebook.com/profile.php?id=100011912118718" target="_blank"><i class="fab fa-facebook-square spacing"></i></a>
+
+          <a href="https://github.com/samyaksah/samyaksah.github.io" target="_blank"><i class="fab fa-github-square spacing"></i></a>
+
+          <a href="mailto:ssah@sfu.ca" target="_blank"><i class="fas fa-envelope spacing"></i></a>
+          <a href="styleguide.html"><i class="fas fa-pencil-ruler spacing"></i></a>
+
+        </div>
 
       </div>
 
-    <h4>Rendered element:</h4>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
+    </div>
+
+    <div class="images gap border-line">
+      <h4>Project Images</h4>
+
+      <h5>CSS selector:</h5>
+        <p>.page-content, .image-gallery, </p>
+
+      <h4>Sample code:</h4>
+      <pre>
+        &lt;div class="page-content middle"&gt;
+        &lt;figure class="image-gallery"&gt;
+          &lt;img src="img/ignitionproduction.png" alt="Our main Character's modeling and rigging in process" style="width:100%"&gt;
+          &lt;figcaption&gt;Our main Character's modeling and rigging in process&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      &lt;/div&gt;
+
+      </pre>
+
+      <h4>Rendered element:</h4>
+
+      <div class="page-content middle">
+        <figure class="image-gallery">
+          <img src="img/ignitionproduction.png" alt="Our main Character's modeling and rigging in process" style="width:100%">
+          <figcaption>Our main Character's modeling and rigging in process</figcaption>
+        </figure>
+      </div>
+
+    </div>
 
   </div>
 
-  <div class="paragraph">
-
-  </div>
-  <div class="color">
-
-  </div>
-  <div class="font">
-
-  </div>
-  <div class="buttons">
-
-  </div>
-  <div class="video">
-
-  </div>
-  <div class="project-heading">
-
-  </div>
-  <div class="project-details">
-
-  </div>
-  <div class="footers">
-
-  </div>
-  <div class="images">
-
-  </div>
-
-</div>
   <div class="footer">
     <a href="index.html">
       <div class="my-logo">

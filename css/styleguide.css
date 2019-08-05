@@ -21,6 +21,18 @@
     background-color: #ED1B24;
     color: white; }
 
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify; }
+
+.gap {
+  margin-top: 3em;
+  margin-bottom: 3em; }
+
+.border-line {
+  border-top: 3px solid #ED1B24; }
+
 .styleguide-page .styleguide-references {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,3 +41,28 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row; }
+  .styleguide-page .styleguide-references a {
+    margin-right: 1em; }
+
+.styleguide-page .color-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .styleguide-page .color-box .red {
+    padding: 1em;
+    width: 10em;
+    height: 15em;
+    background-color: #ED1B24;
+    color: white;
+    margin: 0.5em; }
+  .styleguide-page .color-box .purple {
+    padding: 1em;
+    width: 12em;
+    height: 15em;
+    background-color: #1A163B;
+    color: white;
+    margin: 0.5em; }
