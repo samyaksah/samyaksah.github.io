@@ -182,8 +182,8 @@
   width: 35%; }
 
 .image-gallery {
-  width: 60%;
-  background-color: yellow; }
+  margin: 0;
+  width: 60%; }
 
 .extended {
   height: 25em; }
