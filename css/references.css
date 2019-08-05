@@ -1,0 +1,50 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+.cross a {
+  position: fixed;
+  padding: 2em 4em;
+  top: 2em;
+  right: 2em;
+  z-index: 99;
+  font-size: 0.7em;
+  border: #ED1B24 solid 2px;
+  background-color: white;
+  color: #ED1B24;
+  border-radius: 4px; }
+  .cross a:focus {
+    background-color: #ED1B24;
+    color: white; }
+  .cross a:hover {
+    background-color: #ED1B24;
+    color: white; }
+
+.gap {
+  margin-top: 3em; }
+
+.border-line {
+  border-top: 3px solid #ED1B24; }
+
+.styleguide-page .styleguide-references {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .styleguide-page .styleguide-references a {
+    margin-right: 1em; }
+
+.in-text {
+  text-decoration: underline;
+  color: #1A163B; }
+  .in-text:focus {
+    color: #ED1B24; }
+  .in-text:hover {
+    color: #ED1B24; }
+
+.reference .margin-spacing {
+  height: 4em; }
