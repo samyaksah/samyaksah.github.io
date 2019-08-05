@@ -149,12 +149,12 @@ p {
   padding: 1em 0;
 }
 
-.background-banner .banner-info .contact-me {
-  text-transform: uppercase;
+.background-banner .banner-info a {
+  width: 10.2em;
 }
 
-.background-banner .banner-info .contact-me a {
-  color: white;
+.background-banner .banner-info a .contact-me {
+  text-transform: uppercase;
 }
 
 .background-banner .dropdown-arrow {
