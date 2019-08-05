@@ -66,12 +66,29 @@ p{
   font-size: 1em  ;
 }
 
-.button{
+.button-about{
   border-radius: 5px;
   border: 2px solid $red;
   padding: 1em;
   color: $red;
   background-color: $purple;
+  width: 163px;
+  text-align: center;
+  &:hover{
+    background-color: $red;
+    color: white;
+  }
+  &:focus{
+    background-color: $red;
+    color: white;
+  }
+}
+
+.button{
+  border-radius: 5px;
+  border: 2px solid $red;
+  padding: 1em;
+  color: $red;
   width: 163px;
   text-align: center;
   &:hover{
