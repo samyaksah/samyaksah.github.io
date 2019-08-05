@@ -197,3 +197,70 @@ $red: #ED1B24;
     border: 0;
   }
 }
+
+@media (max-width:900px){
+  .page-content .section{
+    flex-direction: column;
+  }
+  .image-gallery {
+    order: 1;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+    .project-context {
+      order: 2;
+      width: 100%;
+    }
+
+    .pre-production {
+      order: 2;
+      width: 100%;
+    }
+
+    .production {
+      order: 2;
+      width: 100%;
+    }
+
+    .post-production {
+      order: 2;
+      width: 100%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .page-content .page-title .project-description {
+      flex-direction: column;
+
+      .teams-roles-tools{
+        margin-top: 1em;
+      }
+    }
+}
+
+@media (max-width: 425px) {
+    .page-content .page-title .project-description .teams-roles-tools{
+      flex-direction: column;
+
+      .teams-tools{
+        margin-left: 0;
+        flex-direction: row;
+
+        .tools{
+          margin-left: 1em;
+          .about-tools{
+            margin-left: 0.7em;
+          }
+        }
+      }
+    }
+}
+
+@media (max-width: 340px) {
+    .page-content .page-title .project-description .teams-roles-tools .teams-tools{
+      flex-direction: column;
+    }
+}
