@@ -28,6 +28,8 @@ $red: #ED1B24;
 
 }
 
+
+
 .about-me-page{
   display: flex;
   flex-direction: row;
@@ -40,7 +42,7 @@ $red: #ED1B24;
   }
 
   .copy-side{
-    width: 30em;
+    width: 40em;
     margin-right: auto;
     height: 20em;
     margin-top: auto;
@@ -57,6 +59,16 @@ $red: #ED1B24;
         margin: 0;
         padding: 0;
       }
+
+      .link{
+        color: $red;
+
+        &:focus{
+          color: $purple;
+        }&:hover{
+          color: $purple;
+        }
+      }
     }
     .lets-connect{
       margin-top: 1em;
@@ -67,7 +79,9 @@ $red: #ED1B24;
       color: $purple;
       .connect{
         margin-top: 0.5em;
-        color: $purple;
+        .icon-link{
+          color: $purple;
+        }
         .spacing{
           padding-right: 0.5em;
 
@@ -100,13 +114,13 @@ $red: #ED1B24;
 
 }
 
-@media (max-width:880px) {
+@media (max-width:780px) {
 
   .about-me-page{
     flex-direction: column;
     margin: 0 1em 15em 1em;
     .profile-image{
-      width: 100%;
+      width: 70%;
     }
 
     .copy-side{

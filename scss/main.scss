@@ -25,6 +25,7 @@ h1,h2,h3,h4,h4,h5,h6{
 font-family: 'futura-pt', sans-serif;
 margin: 0;
 padding: 0;
+
 }
 
 h1{
@@ -48,22 +49,38 @@ h3{
 }
 
 h4{
- font-size: 1.7em;
+ font-size: 2em;
  font-weight: 600;
 }
 
 h5{
   font-size: 1em;
-  font-weight: 500;
+  font-weight:500;
 }
 
+h6{
+  font-size: 1.2em;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+}
 
 p{
   font-family: 'aktiv-grotesk', sans-serif;
   font-weight: 400;
   font-style: normal;
-  line-height:140%;
-  font-size: 1em  ;
+  line-height:162%;
+  font-size: 1.1em  ;
+  color: #1A163B;
+  opacity: 0.7;
+}
+li{
+  font-family: 'aktiv-grotesk', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height:162%;
+  font-size: 1.1em  ;
+  color: #1A163B;
+  opacity: 0.7;
 }
 
 .button-about{
@@ -138,6 +155,7 @@ p{
     }
     .job-description{
       // background-color: yellow;
+      max-width: 45em;
       opacity: 0.6;
       color: white;
       padding: 1em 0;
@@ -156,7 +174,7 @@ p{
   }
 
   .dropdown-arrow{
-    width: 10em;
+    // width: 10em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
@@ -167,11 +185,12 @@ p{
   }
 }
 
+
 .spacer{
   height: 8em;
 }
 .piece1-with-banner{
-  background-image: url("../img/ignitiontextBanner.png");
+  background-image: url("../img/lunular_banner.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,6 +206,15 @@ p{
       justify-content: flex-end;
       max-width: 38.5em;
       // border: 1px solid black;
+      .heading-hover{
+        color: black;
+        &:hover{
+          color: $red;
+        }
+        &:focus{
+          color: $red;
+        }
+      }
 
       .project-subtitle{
         color: #666666;
@@ -195,6 +223,7 @@ p{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 1em;
 
 
         .line{
@@ -207,19 +236,24 @@ p{
       }
     }
 
-    .image-part{
-      max-width: 44.6em;
-      img{
-        width: 100%;
-        height: auto;
-      }
+      .image-part{
+        max-width: 44.6em;
 
-    }
+        .image-hover{
+
+          img{
+            width: 100%;
+            height: auto;
+            filter: saturate(1);
+          }
+
+        }
+      }
   }
 }
 
 .piece2-with-banner{
-  background-image: url("../img/paranoiatextBanner.png");
+  background-image: url("../img/splitwise_banner.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,6 +268,16 @@ p{
       justify-content: flex-end;
       max-width: 38.5em;
 
+      .heading-hover{
+        color: black;
+        &:hover{
+          color: $red;
+        }
+        &:focus{
+          color: $red;
+        }
+      }
+
       .project-subtitle{
         color: #666666;
       }
@@ -241,6 +285,68 @@ p{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 1em;
+
+      }
+      .line{
+        width: 14.125em;
+        height: 1.375em;
+        background-color: $red;
+        align-self: flex-end;
+
+      }
+    }
+
+    .image-part{
+      max-width: 45.313em;
+      .image-hover{
+
+        img{
+          width: 100%;
+          height: auto;
+          filter: saturate(1);
+        }
+
+      }
+
+    }
+  }
+}
+
+.piece3-with-banner{
+  background-image: url("../img/ignition_banner.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .piece3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4em;
+
+    .content-part{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      max-width: 38.5em;
+
+      .heading-hover{
+        color: black;
+        &:hover{
+          color: $red;
+        }
+        &:focus{
+          color: $red;
+        }
+      }
+
+      .project-subtitle{
+        color: #666666;
+      }
+      .read-more-line{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1em;
 
       }
       .line{
@@ -286,29 +392,38 @@ p{
   }
 
   .middle{
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-}
-
-
-@media (max-width:900px) {
-  .piece1-with-banner .piece1 .content-part .read-more-line .line {
-    width: 8em;
-    height: 1em;
-  }
-
-  .piece2-with-banner .piece2 .content-part .line {
-    width: 8em;
-    height: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
   }
 
   .background-banner .banner-info{
-    margin-left: 3em;
+    margin-left: 6em;
+
+    .job-description{
+      max-width: 30em;
+      margin-bottom: 1em;
+    }
+  }
+
+
+}
+
+
+@media (max-width:1030px) {
+  .piece1-with-banner .piece1 .content-part .read-more-line .line {
+    width: 11em;
+  }
+
+  .piece2-with-banner .piece2 .content-part .line {
+    width: 11em;
+  }
+
+  .piece3-with-banner .piece3 .content-part .read-more-line .line {
+    width: 11em;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
 
   .piece1-with-banner {
     background-position: left;
@@ -329,8 +444,46 @@ p{
     flex-direction: column;
   }
 
+  .piece2-with-banner{
+    background-image: url("../img/splitwise_banner.png");
+    background-position: center;
+  }
+
+  .middle{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .piece3-with-banner {
+    background-position: left;
+  }
+
+  .piece3-with-banner .piece3 {
+    flex-direction: column;
+  }
+
+  .piece3-with-banner .piece3 .image-part {
+    order: 1;
+  }
+  .piece3-with-banner .piece3 .content-part {
+    order: 2;
+  }
+
 }
 
+@media (max-width:475px) {
+  .piece1-with-banner .piece1 .content-part .read-more-line .line {
+    width: 10em;
+  }
+
+  .piece2-with-banner .piece2 .content-part .line {
+    width: 10em;
+  }
+
+  .piece3-with-banner .piece3 .content-part .read-more-line .line {
+    width: 10em;
+  }
+}
 @media (max-width:425px) {
 
   h1{
@@ -343,6 +496,20 @@ p{
   .background-banner .banner-info{
     margin-left: 1em;
   }
+
+  .piece1-with-banner .piece1 .content-part .read-more-line .line {
+    display: none;
+  }
+
+  .piece2-with-banner .piece2 .content-part .line {
+    display: none;
+  }
+
+  .piece3-with-banner .piece3 .content-part .read-more-line .line {
+    display: none;
+  }
+
+
 }
 
 @media (max-width:344px) {
@@ -355,11 +522,5 @@ p{
     font-size: 3em;
   }
 
-  .piece1-with-banner .piece1 .content-part .read-more-line .line {
-    display: none;
-  }
 
-  .piece2-with-banner .piece2 .content-part .line {
-    display: none;
-  }
 }

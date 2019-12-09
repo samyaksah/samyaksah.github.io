@@ -43,7 +43,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.7em;
+  font-size: 2em;
   font-weight: 600;
 }
 
@@ -52,12 +52,30 @@ h5 {
   font-weight: 500;
 }
 
+h6 {
+  font-size: 1.2em;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+}
+
 p {
   font-family: 'aktiv-grotesk', sans-serif;
   font-weight: 400;
   font-style: normal;
-  line-height: 140%;
-  font-size: 1em;
+  line-height: 162%;
+  font-size: 1.1em;
+  color: #1A163B;
+  opacity: 0.7;
+}
+
+li {
+  font-family: 'aktiv-grotesk', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 162%;
+  font-size: 1.1em;
+  color: #1A163B;
+  opacity: 0.7;
 }
 
 .button-about {
@@ -144,6 +162,7 @@ p {
 }
 
 .background-banner .banner-info .job-description {
+  max-width: 45em;
   opacity: 0.6;
   color: white;
   padding: 1em 0;
@@ -158,7 +177,6 @@ p {
 }
 
 .background-banner .dropdown-arrow {
-  width: 10em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
@@ -174,7 +192,7 @@ p {
 }
 
 .piece1-with-banner {
-  background-image: url("../img/ignitiontextBanner.png");
+  background-image: url("../img/lunular_banner.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -205,6 +223,18 @@ p {
   max-width: 38.5em;
 }
 
+.piece1-with-banner .piece1 .content-part .heading-hover {
+  color: black;
+}
+
+.piece1-with-banner .piece1 .content-part .heading-hover:hover {
+  color: #ED1B24;
+}
+
+.piece1-with-banner .piece1 .content-part .heading-hover:focus {
+  color: #ED1B24;
+}
+
 .piece1-with-banner .piece1 .content-part .project-subtitle {
   color: #666666;
 }
@@ -220,6 +250,7 @@ p {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-top: 1em;
 }
 
 .piece1-with-banner .piece1 .content-part .read-more-line .line {
@@ -234,13 +265,15 @@ p {
   max-width: 44.6em;
 }
 
-.piece1-with-banner .piece1 .image-part img {
+.piece1-with-banner .piece1 .image-part .image-hover img {
   width: 100%;
   height: auto;
+  -webkit-filter: saturate(1);
+  filter: saturate(1);
 }
 
 .piece2-with-banner {
-  background-image: url("../img/paranoiatextBanner.png");
+  background-image: url("../img/splitwise_banner.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -271,6 +304,18 @@ p {
   max-width: 38.5em;
 }
 
+.piece2-with-banner .piece2 .content-part .heading-hover {
+  color: black;
+}
+
+.piece2-with-banner .piece2 .content-part .heading-hover:hover {
+  color: #ED1B24;
+}
+
+.piece2-with-banner .piece2 .content-part .heading-hover:focus {
+  color: #ED1B24;
+}
+
 .piece2-with-banner .piece2 .content-part .project-subtitle {
   color: #666666;
 }
@@ -286,6 +331,7 @@ p {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-top: 1em;
 }
 
 .piece2-with-banner .piece2 .content-part .line {
@@ -300,7 +346,88 @@ p {
   max-width: 45.313em;
 }
 
-.piece2-with-banner .piece2 .image-part img {
+.piece2-with-banner .piece2 .image-part .image-hover img {
+  width: 100%;
+  height: auto;
+  -webkit-filter: saturate(1);
+  filter: saturate(1);
+}
+
+.piece3-with-banner {
+  background-image: url("../img/ignition_banner.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.piece3-with-banner .piece3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: 4em;
+}
+
+.piece3-with-banner .piece3 .content-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  max-width: 38.5em;
+}
+
+.piece3-with-banner .piece3 .content-part .heading-hover {
+  color: black;
+}
+
+.piece3-with-banner .piece3 .content-part .heading-hover:hover {
+  color: #ED1B24;
+}
+
+.piece3-with-banner .piece3 .content-part .heading-hover:focus {
+  color: #ED1B24;
+}
+
+.piece3-with-banner .piece3 .content-part .project-subtitle {
+  color: #666666;
+}
+
+.piece3-with-banner .piece3 .content-part .read-more-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.piece3-with-banner .piece3 .content-part .line {
+  width: 14.125em;
+  height: 1.375em;
+  background-color: #ED1B24;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.piece3-with-banner .piece3 .image-part {
+  max-width: 45.313em;
+}
+
+.piece3-with-banner .piece3 .image-part img {
   width: 100%;
   height: auto;
 }
@@ -322,26 +449,31 @@ p {
     font-size: 1em;
   }
   .middle {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  .background-banner .banner-info {
+    margin-left: 6em;
+  }
+  .background-banner .banner-info .job-description {
+    max-width: 30em;
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 1030px) {
+  .piece1-with-banner .piece1 .content-part .read-more-line .line {
+    width: 11em;
+  }
+  .piece2-with-banner .piece2 .content-part .line {
+    width: 11em;
+  }
+  .piece3-with-banner .piece3 .content-part .read-more-line .line {
+    width: 11em;
   }
 }
 
 @media (max-width: 900px) {
-  .piece1-with-banner .piece1 .content-part .read-more-line .line {
-    width: 8em;
-    height: 1em;
-  }
-  .piece2-with-banner .piece2 .content-part .line {
-    width: 8em;
-    height: 1em;
-  }
-  .background-banner .banner-info {
-    margin-left: 3em;
-  }
-}
-
-@media (max-width: 750px) {
   .piece1-with-banner {
     background-position: left;
   }
@@ -367,6 +499,45 @@ p {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .piece2-with-banner {
+    background-image: url("../img/splitwise_banner.png");
+    background-position: center;
+  }
+  .middle {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .piece3-with-banner {
+    background-position: left;
+  }
+  .piece3-with-banner .piece3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .piece3-with-banner .piece3 .image-part {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .piece3-with-banner .piece3 .content-part {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (max-width: 475px) {
+  .piece1-with-banner .piece1 .content-part .read-more-line .line {
+    width: 10em;
+  }
+  .piece2-with-banner .piece2 .content-part .line {
+    width: 10em;
+  }
+  .piece3-with-banner .piece3 .content-part .read-more-line .line {
+    width: 10em;
+  }
 }
 
 @media (max-width: 425px) {
@@ -379,6 +550,15 @@ p {
   .background-banner .banner-info {
     margin-left: 1em;
   }
+  .piece1-with-banner .piece1 .content-part .read-more-line .line {
+    display: none;
+  }
+  .piece2-with-banner .piece2 .content-part .line {
+    display: none;
+  }
+  .piece3-with-banner .piece3 .content-part .read-more-line .line {
+    display: none;
+  }
 }
 
 @media (max-width: 344px) {
@@ -387,11 +567,5 @@ p {
   }
   h2 {
     font-size: 3em;
-  }
-  .piece1-with-banner .piece1 .content-part .read-more-line .line {
-    display: none;
-  }
-  .piece2-with-banner .piece2 .content-part .line {
-    display: none;
   }
 }
