@@ -7,7 +7,7 @@
   position: fixed;
   padding: 2em 4em;
   top: 2em;
-  right: 2em;
+  left: 2em;
   z-index: 99;
   font-size: 0.7em;
   border: #ED1B24 solid 2px;
