@@ -19,6 +19,7 @@ $red: #ED1B24;
     border-radius: 4px;
     &:focus{
       background-color: $red;
+      // hi
       color: white;
     }&:hover{
       background-color: $red;
@@ -27,6 +28,30 @@ $red: #ED1B24;
   }
 
 }
+
+.black-bg{
+  background-color: #1B1835;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.white-text{
+  color: #fff;
+  p{
+    color: #fff;
+  }
+  .list1{
+    li{
+      color: #fff;
+    }
+
+  }
+}
+.wide-bg{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .middle{
   max-width: 70em;

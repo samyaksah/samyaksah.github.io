@@ -1,0 +1,480 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.cross a {
+  position: fixed;
+  padding: 2em 4em;
+  top: 2em;
+  left: 2em;
+  z-index: 99;
+  font-size: 0.7em;
+  border: #ED1B24 solid 2px;
+  background-color: white;
+  color: #ED1B24;
+  border-radius: 4px;
+}
+.cross a:focus {
+  background-color: #ED1B24;
+  color: white;
+}
+.cross a:hover {
+  background-color: #ED1B24;
+  color: white;
+}
+
+.black-bg {
+  background-color: #1B1835;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.white-text {
+  color: #fff;
+}
+.white-text p {
+  color: #fff;
+}
+.white-text .list1 li {
+  color: #fff;
+}
+
+.wide-bg {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middle {
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-banner {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 3em;
+}
+.video-banner .video {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/rcgBanner.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-banner .dropdown-arrow {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-banner .dropdown-arrow .fas {
+  color: white;
+  opacity: 0.6;
+}
+
+.page-content .page-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page-content .page-title .title {
+  border-bottom: 7px solid #ED1B24;
+  margin-bottom: 2em;
+}
+.page-content .page-title .project-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 3px solid #ED1B24;
+}
+.page-content .page-title .project-description .teams-roles-tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.page-content .page-title .project-description .teams-roles-tools .list {
+  margin-left: 2em;
+}
+.page-content .page-title .project-description .teams-roles-tools .arrange {
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.page-content .page-title .project-description .teams-roles-tools .teams-tools {
+  margin-left: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page-content .page-title .project-description .teams-roles-tools .teams-tools .about-teams {
+  margin-left: 1.5em;
+}
+.page-content .button {
+  border-radius: 5px;
+  border: 2px solid #ED1B24;
+  padding: 1em;
+  color: #ED1B24;
+  width: 100%;
+  text-align: center;
+}
+.page-content .button:hover {
+  background-color: #ED1B24;
+  color: white;
+}
+.page-content .button:focus {
+  background-color: #ED1B24;
+  color: white;
+}
+.page-content .slides {
+  padding: 3em;
+}
+.page-content .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 1em;
+  margin-top: 132px;
+}
+.page-content .section .title-and-copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page-content .section .title-and-copy .section-title {
+  border-bottom: 2px solid #ED1B24;
+}
+.page-content .section .title-and-copy .inner-section {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-content .section .title-and-copy .inner-section h4 {
+  font-size: 2.5em;
+}
+.page-content .section .title-and-copy .inner-section .insights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page-content .section .title-and-copy .inner-section .insights .space {
+  height: 7em;
+}
+.page-content .section .title-and-copy .inner-section .insights .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-content .section .title-and-copy .inner-section .insights .row .single-insight {
+  width: 50%;
+}
+.page-content .section .title-and-copy .inner-section .insights .row .single-insight p {
+  margin-bottom: 0;
+}
+.page-content .section .title-and-copy .inner-section .insights .row .single-insight .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+.page-content .section .title-and-copy .inner-section .insights .row .block {
+  width: 2.5em;
+}
+.page-content .section .title-and-copy .inner-section-feature {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-content .section .title-and-copy .inner-section-feature h4 {
+  font-size: 2em;
+}
+.page-content .section .title-and-copy .inner-section-feature .feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-content .section .title-and-copy .inner-section-feature .feature .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.page-content .section .title-and-copy .inner-section-feature .feature .block {
+  width: 12em;
+}
+.page-content .section .title-and-copy .inner-section-feature .feature .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+}
+.page-content .section .title-and-copy .inner-section-feature .feature .right-side img {
+  width: 70%;
+}
+.page-content .section .title-and-copy .inner-section-feature .top-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-content .section .title-and-copy .inner-section-feature .top-bottom .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.page-content .section .title-and-copy .inner-section-feature .top-bottom .block {
+  width: 12em;
+}
+.page-content .section .title-and-copy .inner-section-feature .top-bottom .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.page-content .section .title-and-copy .inner-section-feature .top-bottom .right-side .section-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.page-content .section .title-and-copy .review-insight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.page-content .section .title-and-copy .review-insight .section-copy {
+  width: 33%;
+}
+.page-content .section .title-and-copy .review-insight .block {
+  width: 4em;
+}
+.page-content .section .title-and-copy .section-image img {
+  width: 100%;
+  height: auto;
+}
+.page-content .section .title-and-copy .section-image .image-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.page-content .section .title-and-copy .section-image .image-set img {
+  width: 50%;
+  height: auto;
+}
+.page-content .section .title-and-copy .align-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.page-content .section .title-and-copy .align-row .part {
+  width: 40%;
+  height: auto;
+}
+.page-content .section .title-and-copy .add-space {
+  margin-top: 3em;
+}
+
+.yt-video {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  margin-bottom: 3em;
+}
+.yt-video .yt-video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 1442px) {
+  .overview h4 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 1200px) {
+  .middle {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+}
+@media (max-width: 900px) {
+  .page-content .section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .project-context {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .page-content .page-title .project-description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page-content .page-title .project-description .teams-roles-tools {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 425px) {
+  .page-content .page-title .project-description .teams-roles-tools {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page-content .page-title .project-description .teams-roles-tools .teams-tools {
+    margin-left: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .page-content .page-title .project-description .teams-roles-tools .teams-tools .tools {
+    margin-left: 1em;
+  }
+  .page-content .page-title .project-description .teams-roles-tools .teams-tools .tools .about-tools {
+    margin-left: 0.7em;
+  }
+
+  .middle {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .overview h4 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 340px) {
+  .page-content .page-title .project-description .teams-roles-tools .teams-tools {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

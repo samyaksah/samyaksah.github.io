@@ -1,6 +1,6 @@
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'futura-pt' , sans-serif;
+  font-family: "futura-pt", sans-serif;
   margin: 0;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h4, h5, h6 {
-  font-family: 'futura-pt', sans-serif;
+  font-family: "futura-pt", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -59,7 +59,7 @@ h6 {
 }
 
 p {
-  font-family: 'aktiv-grotesk', sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 162%;
@@ -69,7 +69,7 @@ p {
 }
 
 li {
-  font-family: 'aktiv-grotesk', sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 162%;
@@ -87,12 +87,10 @@ li {
   width: 163px;
   text-align: center;
 }
-
 .button-about:hover {
   background-color: #ED1B24;
   color: white;
 }
-
 .button-about:focus {
   background-color: #ED1B24;
   color: white;
@@ -106,12 +104,10 @@ li {
   width: 163px;
   text-align: center;
 }
-
 .button:hover {
   background-color: #ED1B24;
   color: white;
 }
-
 .button:focus {
   background-color: #ED1B24;
   color: white;
@@ -136,10 +132,9 @@ li {
   background-size: cover;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-
 .background-banner .banner-info {
   height: 100vh;
   display: -webkit-box;
@@ -147,42 +142,36 @@ li {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: 15em;
 }
-
 .background-banner .banner-info .my-title {
   line-height: 4.5em;
   padding: 0.5em 0;
   color: white;
 }
-
 .background-banner .banner-info .job-description {
   max-width: 45em;
   opacity: 0.6;
   color: white;
   padding: 1em 0;
 }
-
 .background-banner .banner-info a {
   width: 10.2em;
 }
-
 .background-banner .banner-info a .contact-me {
   text-transform: uppercase;
 }
-
 .background-banner .dropdown-arrow {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
   color: white;
 }
-
 .background-banner .dropdown-arrow .fas {
   color: white;
 }
@@ -197,79 +186,69 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .piece1-with-banner .piece1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-bottom: 4em;
 }
-
 .piece1-with-banner .piece1 .content-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   max-width: 38.5em;
 }
-
 .piece1-with-banner .piece1 .content-part .heading-hover {
   color: black;
 }
-
 .piece1-with-banner .piece1 .content-part .heading-hover:hover {
   color: #ED1B24;
 }
-
 .piece1-with-banner .piece1 .content-part .heading-hover:focus {
   color: #ED1B24;
 }
-
 .piece1-with-banner .piece1 .content-part .project-subtitle {
   color: #666666;
 }
-
 .piece1-with-banner .piece1 .content-part .read-more-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 1em;
 }
-
 .piece1-with-banner .piece1 .content-part .read-more-line .line {
   width: 14.125em;
   height: 1.375em;
   background-color: #ED1B24;
   -ms-flex-item-align: end;
-  align-self: flex-end;
+      align-self: flex-end;
 }
-
 .piece1-with-banner .piece1 .image-part {
   max-width: 44.6em;
 }
-
 .piece1-with-banner .piece1 .image-part .image-hover img {
   width: 100%;
   height: auto;
   -webkit-filter: saturate(1);
-  filter: saturate(1);
+          filter: saturate(1);
 }
 
 .piece2-with-banner {
@@ -278,79 +257,69 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .piece2-with-banner .piece2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-bottom: 4em;
 }
-
 .piece2-with-banner .piece2 .content-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   max-width: 38.5em;
 }
-
 .piece2-with-banner .piece2 .content-part .heading-hover {
   color: black;
 }
-
 .piece2-with-banner .piece2 .content-part .heading-hover:hover {
   color: #ED1B24;
 }
-
 .piece2-with-banner .piece2 .content-part .heading-hover:focus {
   color: #ED1B24;
 }
-
 .piece2-with-banner .piece2 .content-part .project-subtitle {
   color: #666666;
 }
-
 .piece2-with-banner .piece2 .content-part .read-more-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 1em;
 }
-
 .piece2-with-banner .piece2 .content-part .line {
   width: 14.125em;
   height: 1.375em;
   background-color: #ED1B24;
   -ms-flex-item-align: end;
-  align-self: flex-end;
+      align-self: flex-end;
 }
-
 .piece2-with-banner .piece2 .image-part {
   max-width: 45.313em;
 }
-
 .piece2-with-banner .piece2 .image-part .image-hover img {
   width: 100%;
   height: auto;
   -webkit-filter: saturate(1);
-  filter: saturate(1);
+          filter: saturate(1);
 }
 
 .piece3-with-banner {
@@ -359,74 +328,64 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .piece3-with-banner .piece3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-bottom: 4em;
 }
-
 .piece3-with-banner .piece3 .content-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   max-width: 38.5em;
 }
-
 .piece3-with-banner .piece3 .content-part .heading-hover {
   color: black;
 }
-
 .piece3-with-banner .piece3 .content-part .heading-hover:hover {
   color: #ED1B24;
 }
-
 .piece3-with-banner .piece3 .content-part .heading-hover:focus {
   color: #ED1B24;
 }
-
 .piece3-with-banner .piece3 .content-part .project-subtitle {
   color: #666666;
 }
-
 .piece3-with-banner .piece3 .content-part .read-more-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 1em;
 }
-
 .piece3-with-banner .piece3 .content-part .line {
   width: 14.125em;
   height: 1.375em;
   background-color: #ED1B24;
   -ms-flex-item-align: end;
-  align-self: flex-end;
+      align-self: flex-end;
 }
-
 .piece3-with-banner .piece3 .image-part {
   max-width: 45.313em;
 }
-
 .piece3-with-banner .piece3 .image-part img {
   width: 100%;
   height: auto;
@@ -436,22 +395,28 @@ li {
   h1 {
     font-size: 17.5em;
   }
+
   h2 {
     font-size: 5em;
   }
+
   h3 {
     font-size: 4em;
   }
+
   h4 {
     font-size: 1.2em;
   }
+
   h5 {
     font-size: 1em;
   }
+
   .middle {
     margin-left: 5em;
     margin-right: 5em;
   }
+
   .background-banner .banner-info {
     margin-left: 6em;
   }
@@ -460,111 +425,126 @@ li {
     margin-bottom: 1em;
   }
 }
-
 @media (max-width: 1030px) {
   .piece1-with-banner .piece1 .content-part .read-more-line .line {
     width: 11em;
   }
+
   .piece2-with-banner .piece2 .content-part .line {
     width: 11em;
   }
+
   .piece3-with-banner .piece3 .content-part .read-more-line .line {
     width: 11em;
   }
 }
-
 @media (max-width: 900px) {
   .piece1-with-banner {
     background-position: left;
   }
+
   .piece1-with-banner .piece1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+
   .piece1-with-banner .piece1 .image-part {
     -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
+        -ms-flex-order: 1;
+            order: 1;
   }
+
   .piece1-with-banner .piece1 .content-part {
     -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
+        -ms-flex-order: 2;
+            order: 2;
   }
+
   .piece2-with-banner .piece2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+
   .piece2-with-banner {
     background-image: url("../img/splitwise_banner.png");
     background-position: center;
   }
+
   .middle {
     margin-left: 2em;
     margin-right: 2em;
   }
+
   .piece3-with-banner {
     background-position: left;
   }
+
   .piece3-with-banner .piece3 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+
   .piece3-with-banner .piece3 .image-part {
     -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
+        -ms-flex-order: 1;
+            order: 1;
   }
+
   .piece3-with-banner .piece3 .content-part {
     -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
-
 @media (max-width: 475px) {
   .piece1-with-banner .piece1 .content-part .read-more-line .line {
     width: 10em;
   }
+
   .piece2-with-banner .piece2 .content-part .line {
     width: 10em;
   }
+
   .piece3-with-banner .piece3 .content-part .read-more-line .line {
     width: 10em;
   }
 }
-
 @media (max-width: 425px) {
   h1 {
     font-size: 14em;
   }
+
   h2 {
     font-size: 4em;
   }
+
   .background-banner .banner-info {
     margin-left: 1em;
   }
+
   .piece1-with-banner .piece1 .content-part .read-more-line .line {
     display: none;
   }
+
   .piece2-with-banner .piece2 .content-part .line {
     display: none;
   }
+
   .piece3-with-banner .piece3 .content-part .read-more-line .line {
     display: none;
   }
 }
-
 @media (max-width: 344px) {
   h1 {
     font-size: 6em;
   }
+
   h2 {
     font-size: 3em;
   }

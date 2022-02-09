@@ -1,0 +1,392 @@
+$purple: #1A163B;
+$red: #ED1B24;
+
+*, *::after, *::before{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.cross{
+  a{
+    position: fixed;
+    padding: 2em 4em;
+    top: 2em;
+    left: 2em;
+    z-index: 99;
+    font-size: 0.7em;
+    border: $red solid 2px;
+    background-color: white;
+    color: $red;
+    border-radius: 4px;
+    &:focus{
+      background-color: $red;
+      // hi
+      color: white;
+    }&:hover{
+      background-color: $red;
+      color: white;
+    }
+  }
+
+}
+
+.black-bg{
+  background-color: #1B1835;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.white-text{
+  color: #fff;
+  p{
+    color: #fff;
+  }
+  .list1{
+    li{
+      color: #fff;
+    }
+
+  }
+}
+.wide-bg{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.middle{
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-banner{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+
+  .video{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/rcgBanner.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dropdown-arrow{
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+
+    .fas{
+      color: white;
+      opacity: 0.6;
+    }
+  }
+}
+
+.page-content{
+  .page-title{
+    display: flex;
+    flex-direction: column;
+
+    .title{
+      border-bottom: 7px solid $red;
+      margin-bottom: 2em;
+    }
+
+    .project-description{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 3px solid $red;
+
+      .teams-roles-tools{
+        display: flex;
+        flex-direction:row;
+
+        .list{
+          margin-left: 2em;
+        }
+        .arrange{
+          margin-bottom: 1em;
+          display: flex;
+          flex-direction: row;
+        }
+
+        .teams-tools{
+          margin-left: 2em;
+          display: flex;
+          flex-direction: column;
+
+          .about-teams{
+            margin-left: 1.5em;
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .button {
+    border-radius: 5px;
+    border: 2px solid #ED1B24;
+    padding: 1em;
+    color: #ED1B24;
+    width: 100%;
+    text-align: center; }
+    .button:hover {
+      background-color: #ED1B24;
+      color: white; }
+    .button:focus {
+      background-color: #ED1B24;
+      color: white; }
+
+.slides{
+  padding: 3em;
+}
+  .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    margin-top: 132px;
+    .title-and-copy{
+      display: flex;
+      flex-direction: column;
+      .section-title{
+        border-bottom: 2px solid $red;
+      }
+
+      .inner-section{
+        max-width: 60em;
+        margin-left: auto;
+        margin-right: auto;
+        h4{
+          font-size: 2.5em;
+        }
+        .insights{
+          display: flex;
+          flex-direction: column;
+          .space{
+            height: 7em;
+          }
+          .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .single-insight{
+              width: 50%;
+              p{
+                margin-bottom: 0;
+              }
+
+              .list{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+              }
+            }
+            .block{
+              width: 2.5em;
+            }
+          }
+        }
+      }
+
+      .inner-section-feature{
+        max-width: 60em;
+        margin-left: auto;
+        margin-right: auto;
+        h4{
+          font-size: 2em;
+
+        }
+
+        .feature{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .left-side{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: space-around;
+          }
+          .block{
+            width: 12em;
+          }
+          .right-side{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            img{
+              width: 70%;
+            }
+          }
+        }
+
+        .top-bottom{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .left-side{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-around;
+          }
+          .block{
+            width: 12em;
+          }
+          .right-side{
+            display: flex;
+            flex-direction: row;
+            .section-image{
+              display: flex;
+              flex-direction: row;
+            }
+          }
+        }
+
+      }
+
+      .review-insight{
+        display: flex;
+        flex-direction: row;
+        .section-copy{
+          width: 33%;
+        }
+        .block{
+          width: 4em;
+        }
+      }
+
+      .section-image{
+        img{
+          width: 100%;
+          height: auto;
+        }
+        .image-set{
+        display: flex;
+        flex-direction: row;
+        img{
+          width: 50%;
+          height: auto;
+        }
+        }
+      }
+
+      .align-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .part{
+          width: 40%;
+          height: auto;
+        }
+      }
+      .add-space{
+        margin-top: 3em;
+      }
+    }
+  }
+}
+
+
+
+.yt-video{
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  margin-bottom: 3em;
+  .yt-video-iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+@media (max-width:1442px){
+  .overview{
+    h4{
+      font-size: 2em;
+    }
+  }
+}
+
+@media (max-width:1200px){
+  .middle{
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+}
+
+@media (max-width:900px){
+  .page-content .section{
+    flex-direction: column;
+  }
+
+    .project-context {
+      order: 2;
+      width: 100%;
+    }
+
+
+
+
+}
+
+@media (max-width: 650px) {
+    .page-content .page-title .project-description {
+      flex-direction: column;
+
+      .teams-roles-tools{
+        margin-top: 1em;
+      }
+    }
+}
+
+@media (max-width: 425px) {
+    .page-content .page-title .project-description .teams-roles-tools{
+      flex-direction: column;
+
+      .teams-tools{
+        margin-left: 0;
+        flex-direction: row;
+
+        .tools{
+          margin-left: 1em;
+          .about-tools{
+            margin-left: 0.7em;
+          }
+        }
+      }
+    }
+
+    .middle{
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+
+    .overview{
+      h4{
+        font-size: 1.5em;
+      }
+    }
+}
+
+@media (max-width: 340px) {
+    .page-content .page-title .project-description .teams-roles-tools .teams-tools{
+      flex-direction: column;
+    }
+}
