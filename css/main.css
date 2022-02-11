@@ -181,7 +181,7 @@ li {
 }
 
 .piece1-with-banner {
-  background-image: url("../img/lunular_banner.png");
+  background-image: url("../img/gcitextBanner.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,7 +252,7 @@ li {
 }
 
 .piece2-with-banner {
-  background-image: url("../img/splitwise_banner.png");
+  background-image: url("../img/rcgtextBanner.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -323,12 +323,12 @@ li {
 }
 
 .piece3-with-banner {
-  background-image: url("../img/ignition_banner.png");
-  background-position: right;
+  background-image: url("../img/gcitextBanner.png");
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.piece3-with-banner .piece3 {
+.piece3-with-banner .piece1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,7 +338,7 @@ li {
           flex-direction: row;
   margin-bottom: 4em;
 }
-.piece3-with-banner .piece3 .content-part {
+.piece3-with-banner .piece1 .content-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,19 +351,19 @@ li {
           justify-content: flex-end;
   max-width: 38.5em;
 }
-.piece3-with-banner .piece3 .content-part .heading-hover {
+.piece3-with-banner .piece1 .content-part .heading-hover {
   color: black;
 }
-.piece3-with-banner .piece3 .content-part .heading-hover:hover {
+.piece3-with-banner .piece1 .content-part .heading-hover:hover {
   color: #ED1B24;
 }
-.piece3-with-banner .piece3 .content-part .heading-hover:focus {
+.piece3-with-banner .piece1 .content-part .heading-hover:focus {
   color: #ED1B24;
 }
-.piece3-with-banner .piece3 .content-part .project-subtitle {
+.piece3-with-banner .piece1 .content-part .project-subtitle {
   color: #666666;
 }
-.piece3-with-banner .piece3 .content-part .read-more-line {
+.piece3-with-banner .piece1 .content-part .read-more-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -376,19 +376,92 @@ li {
           justify-content: space-between;
   margin-top: 1em;
 }
-.piece3-with-banner .piece3 .content-part .line {
+.piece3-with-banner .piece1 .content-part .read-more-line .line {
   width: 14.125em;
   height: 1.375em;
   background-color: #ED1B24;
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
-.piece3-with-banner .piece3 .image-part {
-  max-width: 45.313em;
+.piece3-with-banner .piece1 .image-part {
+  max-width: 44.6em;
 }
-.piece3-with-banner .piece3 .image-part img {
+.piece3-with-banner .piece1 .image-part .image-hover img {
   width: 100%;
   height: auto;
+  -webkit-filter: saturate(1);
+          filter: saturate(1);
+}
+
+.piece4-with-banner {
+  background-image: url("../img/splitwise_banner.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piece4-with-banner .piece2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 4em;
+}
+.piece4-with-banner .piece2 .content-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 38.5em;
+}
+.piece4-with-banner .piece2 .content-part .heading-hover {
+  color: black;
+}
+.piece4-with-banner .piece2 .content-part .heading-hover:hover {
+  color: #ED1B24;
+}
+.piece4-with-banner .piece2 .content-part .heading-hover:focus {
+  color: #ED1B24;
+}
+.piece4-with-banner .piece2 .content-part .project-subtitle {
+  color: #666666;
+}
+.piece4-with-banner .piece2 .content-part .read-more-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1em;
+}
+.piece4-with-banner .piece2 .content-part .line {
+  width: 14.125em;
+  height: 1.375em;
+  background-color: #ED1B24;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.piece4-with-banner .piece2 .image-part {
+  max-width: 45.313em;
+}
+.piece4-with-banner .piece2 .image-part .image-hover img {
+  width: 100%;
+  height: auto;
+  -webkit-filter: saturate(1);
+          filter: saturate(1);
 }
 
 @media (max-width: 1440px) {

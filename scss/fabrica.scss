@@ -1,5 +1,6 @@
 $purple: #1A163B;
 $red: #ED1B24;
+$white: #FFFFFF;
 
 *, *::after, *::before{
   box-sizing: border-box;
@@ -30,10 +31,15 @@ $red: #ED1B24;
 }
 
 .black-bg{
-  background-color: #1B1835;
+  background-color: #000000;
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
+.section-title-white{
+  border-bottom: 2px solid #ECFC30;
+}
+
 .white-text{
   color: #fff;
   p{
@@ -151,6 +157,11 @@ $red: #ED1B24;
 .slides{
   padding: 3em;
 }
+
+.section-title{
+  border-bottom: 2px solid $red;
+}
+
   .section{
     display: flex;
     flex-direction: column;
@@ -160,6 +171,7 @@ $red: #ED1B24;
     .title-and-copy{
       display: flex;
       flex-direction: column;
+
       .section-title{
         border-bottom: 2px solid $red;
       }
@@ -262,6 +274,7 @@ $red: #ED1B24;
         flex-direction: row;
         .section-copy{
           width: 33%;
+          padding-top: 10em;
         }
         .block{
           width: 4em;
@@ -277,6 +290,19 @@ $red: #ED1B24;
         display: flex;
         flex-direction: row;
         img{
+          width: 50%;
+          height: auto;
+        }
+        }
+
+        video{
+          width: 100%;
+          height: auto;
+        }
+        .image-set{
+        display: flex;
+        flex-direction: row;
+        video{
           width: 50%;
           height: auto;
         }

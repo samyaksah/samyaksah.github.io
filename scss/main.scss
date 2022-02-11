@@ -190,7 +190,7 @@ li{
   height: 8em;
 }
 .piece1-with-banner{
-  background-image: url("../img/lunular_banner.png");
+  background-image: url("../img/gcitextBanner.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,7 +253,7 @@ li{
 }
 
 .piece2-with-banner{
-  background-image: url("../img/splitwise_banner.png");
+  background-image: url("../img/rcgtextBanner.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -314,11 +314,74 @@ li{
 }
 
 .piece3-with-banner{
-  background-image: url("../img/ignition_banner.png");
+  background-image: url("../img/gcitextBanner.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .piece1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4em;
+
+
+    .content-part{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      max-width: 38.5em;
+      // border: 1px solid black;
+      .heading-hover{
+        color: black;
+        &:hover{
+          color: $red;
+        }
+        &:focus{
+          color: $red;
+        }
+      }
+
+      .project-subtitle{
+        color: #666666;
+      }
+      .read-more-line{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1em;
+
+
+        .line{
+          width: 14.125em;
+          height: 1.375em;
+          background-color: $red;
+          align-self: flex-end;
+
+        }
+      }
+    }
+
+      .image-part{
+        max-width: 44.6em;
+
+        .image-hover{
+
+          img{
+            width: 100%;
+            height: auto;
+            filter: saturate(1);
+          }
+
+        }
+      }
+  }
+}
+
+.piece4-with-banner{
+  background-image: url("../img/splitwise_banner.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
-  .piece3{
+  .piece2{
     display: flex;
     flex-direction: row;
     margin-bottom: 4em;
@@ -360,9 +423,14 @@ li{
 
     .image-part{
       max-width: 45.313em;
-      img{
-        width: 100%;
-        height: auto;
+      .image-hover{
+
+        img{
+          width: 100%;
+          height: auto;
+          filter: saturate(1);
+        }
+
       }
 
     }
