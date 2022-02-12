@@ -26,9 +26,13 @@
 }
 
 .black-bg {
-  background-color: #1B1835;
+  background-color: #4418A1;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.section-title-white {
+  border-bottom: 2px solid #ffffff;
 }
 
 .white-text {
@@ -166,6 +170,9 @@
 }
 .page-content .slides {
   padding: 3em;
+}
+.page-content .section-title {
+  border-bottom: 2px solid #ED1B24;
 }
 .page-content .section {
   display: -webkit-box;
@@ -348,6 +355,7 @@
 }
 .page-content .section .title-and-copy .review-insight .section-copy {
   width: 33%;
+  padding-top: 10em;
 }
 .page-content .section .title-and-copy .review-insight .block {
   width: 4em;
@@ -366,6 +374,23 @@
           flex-direction: row;
 }
 .page-content .section .title-and-copy .section-image .image-set img {
+  width: 50%;
+  height: auto;
+}
+.page-content .section .title-and-copy .section-image video {
+  width: 100%;
+  height: auto;
+}
+.page-content .section .title-and-copy .section-image .image-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.page-content .section .title-and-copy .section-image .image-set video {
   width: 50%;
   height: auto;
 }
