@@ -78,6 +78,12 @@ li {
   opacity: 0.7;
 }
 
+mark {
+  background-color: #ED1B24;
+  color: white;
+  padding: 0.2em;
+}
+
 .button-about {
   border-radius: 5px;
   border: 2px solid #ED1B24;
@@ -323,7 +329,7 @@ li {
 }
 
 .piece3-with-banner {
-  background-image: url("../img/gcitextBanner.png");
+  background-image: url("../img/idagiotextBanner.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -394,7 +400,7 @@ li {
 }
 
 .piece4-with-banner {
-  background-image: url("../img/splitwise_banner.png");
+  background-image: url("../img/fabricatextBanner.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
